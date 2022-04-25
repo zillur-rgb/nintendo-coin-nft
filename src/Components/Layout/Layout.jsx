@@ -1,13 +1,13 @@
 import React from "react";
-import AllPages from "../../pages/AllPages";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+import HeroSection from "../HeroSection/HeroSection";
 
 const Layout = () => {
   return (
     <>
       <Header />
-      <AllPages />
+      <HeroSection />
       <Footer />
     </>
   );

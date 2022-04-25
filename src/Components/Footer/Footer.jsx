@@ -34,34 +34,34 @@ const Footer = () => {
   const resources = [
     {
       display: "Help Center",
-      url: "#",
+      url: "/h",
     },
     {
       display: "Partner",
-      url: "#",
+      url: "/p",
     },
     {
       display: "Community",
-      url: "#",
+      url: "/c",
     },
     {
       display: "Activity",
-      url: "#",
+      url: "/a",
     },
   ];
 
   const company = [
     {
       display: "About",
-      url: "#",
+      url: "/a",
     },
     {
       display: "Career",
-      url: "#",
+      url: "/c",
     },
     {
       display: "Ranking",
-      url: "#",
+      url: "/r",
     },
     {
       display: "Contact Us",
