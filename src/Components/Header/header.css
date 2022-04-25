@@ -45,19 +45,24 @@
   color: #e250e5;
 }
 
-.nav-right .btn {
+/* .nav-right .btn {
   padding: 7px 25px;
   border: 1px solid #5142fc;
   border-radius: 50px;
-}
-
-.nav-right .btn a {
   color: #5142fc;
+} */
+
+.nav-right button.btn {
+  padding: 7px 25px;
+  border: 1px solid #5142fc;
+  color: #fff;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1rem;
   display: inline-block;
+  border-radius: 50px;
 }
 
-.nav-right .btn a:hover {
+.nav-right button.btn:hover {
   color: #fff;
+  border: 1px solid #fff;
 }

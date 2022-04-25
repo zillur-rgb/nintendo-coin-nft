@@ -57,14 +57,18 @@ const Header = () => {
           </div>
 
           <div className="nav-right d-flex align-items-center gap-5">
-            <button className="btn">
-              <Link to="/wallet" className="d-flex gap-2 align-items-center">
+            <Link to="/wallet">
+              <button className="btn d-flex gap-2 align-items-center">
                 <span>
-                  <BiWallet />
+                  <BiWallet
+                    style={{
+                      fontSize: "20px",
+                    }}
+                  />
                 </span>
                 Connect Wallet
-              </Link>
-            </button>
+              </button>
+            </Link>
 
             <span className="mobile-menu">
               <RiMenu4Fill
